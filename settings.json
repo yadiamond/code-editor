@@ -1,0 +1,21 @@
+{
+  "launch_options": {
+    "geometry": [
+      339,
+      126,
+      961,
+      670
+    ],
+    "wrap_mode": false,
+    "file_path": "C:/Users/zxcdi/OneDrive/Рабочий стол/волк/code editor/test.py",
+    "folder_path": "C:/Users/zxcdi/OneDrive/Рабочий стол/волк/code editor",
+    "api_key": "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",
+    "theme": "default",
+    "caret_color": "#000000",
+    "font": "Consolas",
+    "font_size": 15,
+    "opened_files": {
+      "C:/Users/zxcdi/OneDrive/Рабочий стол/волк/code editor/test.py": 0
+    }
+  }
+}

@@ -1,0 +1,172 @@
+QMainWindow {
+    background-color: #002451;
+    color: #cbcbcb;
+}
+
+QTabBar::tab {
+    background-color: #001c40;
+    color: #808ea0;
+    padding: 5px 5px;
+    border: 1px solid #404f7d;
+}
+
+QTabBar::tab::selected {
+    background-color: #002451;
+    color: #ffffff;
+    padding: 5px 5px;
+    border: 1px solid #404f7d;
+}
+
+QTabBar {
+    background-color: #001733;
+    border: none;
+}
+
+QTabBar::close-button {
+    image: url("css/close.png");
+}
+
+QScrollBar:vertical {
+    width: 10px;
+    background-color: #002451;
+}
+
+QScrollBar:handle:vertical {
+    background-color: #304661;
+}
+
+QScrollBar:handle:vertical:hover {
+    background-color: #46515e;
+}
+
+QScrollBar:handle:vertical:pressed {
+    background-color: #4c627d;
+}
+
+QScrollBar:horizontal {
+    height: 10px;
+    background-color: #002451;
+}
+
+
+QScrollBar:handle:horizontal {
+    background-color: #304661;
+}
+
+QScrollBar:handle:horizontal:hover {
+    background-color: #46515e;
+}
+
+QScrollBar:handle:horizontal:pressed {
+    background-color: #4c627d;
+}
+
+QPushButton {
+    border: none;
+    outline: none;
+}
+
+QMenuBar {
+    background-color: #001126;
+    color: #cbcbcb;
+}
+
+QMenuBar::item:hover {
+    background-color: #1c2937;
+    color: #cbcbcb
+}
+
+QMenuBar::item:selected {
+    background-color: #1c2937;
+    color: #cbcbcb
+}
+
+QMenu::item {
+    color: #cbcbcb;
+    background-color: #001126;
+}
+
+QMenu::item:selected {
+    background-color: #616f81;
+    color: #cbcbcb;             
+}
+
+QMenu::item:hover {
+    background-color: #616f81;
+    color: #cbcbcb;           
+}
+
+QMenu {
+    color: #cbcbcb;
+    background-color: #001126;
+}
+
+QTreeView {
+    border: none;
+    background-color: #001c40;
+    color: #cbcbcb;
+}
+
+Editor {
+    border: none;
+    color: #cbcbcb
+}
+
+QTabWidget {
+    border: none;
+    background-color: #001733
+}
+
+QTreeView::item:selected {
+    border: none;
+    background-color: #405570;
+    color: #cbcbcb;
+}
+
+QStatusBar {
+    background-color: #001126;
+    color: #ffffff
+}
+
+QLabel#statusbar1 {
+    border: none;
+    color: #ffffff
+}
+
+QLabel#statusbar2 {
+    border: none;
+    color: #ffffff
+}
+
+QWidget#chat {
+    border: none;
+    color: #cbcbcb;
+    background-color: #001c40
+}
+
+QWidget#terminal {
+    background-color: #002451;
+}
+
+QPlainTextEdit#console {
+    background-color: #002451; 
+    color: #cccccc; 
+    padding: 8;
+    broder: none
+}
+
+QTextEdit {
+    background-color: #001733;
+    color: #cbcbcb;
+    border: none
+}
+
+QLineEdit {
+    background-color: #001c40;
+    color: #cbcbcb;
+    border: 1px solid #cbcbcb
+}
+
+QLabel {
+    color: #cbcbcb
+}

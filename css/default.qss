@@ -1,0 +1,86 @@
+QMainWindow {
+    background-color: #ffffff;
+    color: #eeeeee;
+}
+
+QTabBar::tab {
+    background-color: #dddddd;
+    color: #000000;
+    border: 1px solid #a0a0a0;
+    padding: 5px 5px;
+}
+
+QTabBar::tab::selected {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #a0a0a0;
+    padding: 5px 5px;
+}
+
+QTabBar {
+    background-color: #dbdbdb;
+    color: #000000;
+    border: 1px solid #a0a0a0;
+}
+
+QTabBar::close-button {
+    image: url("css/close.png");
+}
+
+QScrollBar:vertical {
+    width: 10px;
+    background-color: #efefef;
+}
+
+QScrollBar:handle:vertical {
+    background-color: #c9c9c9;
+}
+
+QScrollBar:handle:vertical:hover {
+    background-color: #cfcfcf;
+}
+
+QScrollBar:handle:vertical:pressed {
+    background-color: #d1d1d1;
+}
+
+QScrollBar:horizontal {
+    height: 10px;
+    background-color: #efefef;
+}
+
+
+QScrollBar:handle:horizontal {
+    background-color: #c9c9c9;
+}
+
+QScrollBar:handle:horizontal:hover {
+    background-color: #cfcfcf;
+}
+
+QScrollBar:handle:horizontal:pressed {
+    background-color: #d1d1d1;
+}
+
+QPushButton {
+    border: none;
+    outline: none;
+}
+
+Editor {
+    border: 1px solid #a0a0a0;
+    border-top: none;
+}
+
+QWidget#terminal {
+    border: 1px solid #a0a0a0
+}
+QWidget#chat {
+    border: 1px solid #a0a0a0
+}
+
+QPlainTextEdit#console {
+    background-color: #212121; 
+    color: #f3f3f3; 
+    padding: 8;
+}
